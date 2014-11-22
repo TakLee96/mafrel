@@ -1,0 +1,42 @@
+#left {
+  float: left;
+  clear: left;
+}
+
+#right {
+  float: right;
+  clear: right;
+}
+
+#input {
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  padding: 5px;
+  text-align: left;
+  font-size: 15pt;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+  box-sizing: border-box;
+
+}
+
+#output {
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  overflow: scroll;
+  padding: 5px;
+  font-size: 15pt;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1020px;
+  margin: auto;
+  font-family: "Avenir Next W02 Thin","Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+  box-sizing: border-box;
+}

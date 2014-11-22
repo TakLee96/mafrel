@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <script src="src/lib/katex.min.js"></script>
+  <link href="src/lib/katex.min.css" rel="stylesheet" type="text/css"/>
+  <link href="src/css/main.css" rel="stylesheet" type="text/css"/>
+  <script src="src/lib/string.min.js"></script>
+  <script src="src/lib/underscore-min.js"></script>
+</head>
+
+<body>
+  <div id="left">
+    <p>Input:</p>
+    <div contenteditable="true" onInput="handleInput();" id="input"></div>
+  </div>
+  <div id="right">
+    <p>Output:</p>
+    <div id="output"></div>
+  </div>
+  <script src="src/js/mafrel.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
