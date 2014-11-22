@@ -1,19 +1,19 @@
 # MaFrel
 
 ## What is MaFrel?
-MaFrel stands for MAthematical Formula REpresentation Language. It is designed to make the task of writing complicated mathematical formula much simplier and more comprehensible. Try it out! http://mafrel.herokuapp.com
+MaFrel stands for MAthematical Formula REpresentation Language. It is designed to make the task of writing complicated mathematical formula much simplier and more comprehensible. Try it out! http://mafrel.herokuapp.com (You can write whatever you want and just make sure you put the MaFrel code inside the double curly braces {{ YOUR CODE HERE }})
 
 ## Quick Language Guide
 ### Limit
 ```
-lim( f(x), x, l )
+{{ lim( f(x), x, l ) }}
   f(x) -> a function of x (e.g. x^2+2*x+1)
   x -> the variable that approaches the limit
   l -> the limit we are approaching
 ```
 ### Sum
 ```
-sum( f(x), x, a, b )
+{{ sum( f(x), x, a, b ) }}
   f(x) -> a function of x
   x -> the variable that is changed
   a -> lower bound of sum
@@ -21,7 +21,7 @@ sum( f(x), x, a, b )
 ```
 ### Product
 ```
-product( f(x), x, a, b )
+{{ product( f(x), x, a, b ) }}
   f(x) -> a function of x
   x -> the variable that is changed
   a -> lower bound of product
@@ -29,7 +29,7 @@ product( f(x), x, a, b )
 ```
 ### Integral
 ```
-integral( f(x), x, a, b )
+{{ integral( f(x), x, a, b ) }}
   f(x) -> a function of x
   x -> the variable in which we are interested
   a -> lower bound of integration
@@ -37,17 +37,17 @@ integral( f(x), x, a, b )
 ```
 ### Choose
 ```
-choose( n, k )
+{{ choose( n, k ) }}
   n -> from n elements
   k -> choose k elements
 ```
 ### Divide
 ```
-divide( n, d )
+{{ divide( n, d ) }}
   n -> numerator
   d -> denominator
 ```
 ### Chaining Commands
 ```
-  lim( sum(x^2, x, 1, k), k, infinity )
+  {{ lim( sum(x^2, x, 1, k), k, infinity ) }}
 ```
