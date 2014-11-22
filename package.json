@@ -1,0 +1,25 @@
+{
+  "name": "mafrel",
+  "version": "0.0.1",
+  "description": "Mathematical Formula Representation Language",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.9.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TakLee96/mafrel"
+  },
+  "keywords": [
+    "mafrel"
+  ],
+  "author": "Li, JiaHang(Tak)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakLee96/mafrel/issues"
+  },
+  "homepage": "https://github.com/TakLee96/mafrel"
+}
