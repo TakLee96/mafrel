@@ -41,6 +41,12 @@ choose( n, k )
   n -> from n elements
   k -> choose k elements
 ```
+### Divide
+```
+divide( n, d )
+  n -> numerator
+  d -> denominator
+```
 ### Chaining Commands
 ```
   lim( sum(x^2, x, 1, k), k, infinity )
